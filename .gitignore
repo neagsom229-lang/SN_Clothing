@@ -48,3 +48,11 @@ coverage/
 # Misc
 *.tmp
 .temp
+# Create .gitignore
+echo "node_modules/
+dist/
+.env
+.DS_Store
+*.log
+.vscode/
+.idea/" > .gitignore
